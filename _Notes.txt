@@ -1,0 +1,82 @@
+Méthodes JS : 
+  
+  ----------------------- ARRAY -----------------------
+
+  array.slice() 
+  => Crée un copie totale ou partielle d'un tableau 
+
+  array.concat() 
+  => Regroupe un ou plusieurs tableaux
+
+  array.splice() 
+  => Insertion / Remplacement d'un ou plusieurs éléments d'un tableau
+
+  array.map() 
+  => Créé un nouveau tableau avec la condition donnée (boucle sur le tableau)
+
+  array.filter() 
+  => Crée un tableau avec les éléments qui remplissent une condition déterminée par la fonction callback.
+
+  array.reduce() 
+  => C'est un « accumulateur » et qui traite chaque valeur d'une liste afin de la réduire à une seule valeur.
+
+  array.indexOf() 
+  => Renvoie le premier indice pour lequel on trouve un élément donné dans un tableau (ou alors -1)
+
+  array.push() 
+  => Ajoute un ou plusieurs éléments à la fin d'un tableau et retourne la nouvelle taille du tableau.
+
+  array.reverse() 
+  => Inverse l'ordre des éléments d'un tableau
+
+  array.join() 
+  => Crée et renvoie une nouvelle chaîne de caractères en concaténant tous les éléments d'un tableau
+
+  array.sort() 
+  => Trie les éléments d'un tableau (défaut : ordre alphabetique). Possibilité de classer numéro avec (a, b) => a -b
+
+  array.includes() 
+  => Déterminer si un tableau contient une valeur et renvoie true si c'est le cas, false sinon.
+  
+
+  ----------------------- STRING -----------------------
+
+  string.split()
+  => Divise une chaîne de caractères à partir d'un séparateur pour fournir un tableau de sous-chaînes.
+
+  string.slice()
+  => Crée un copie totale ou partielle d'une chaine de caractères. 
+
+  string.charAt()
+  => Renvoie une nouvelle chaîne contenant le caractère à la position indiquée en argument.
+
+  string.toUpperCase()
+  => Retourne la valeur de la chaîne courante, convertie en majuscules.
+
+  string.toLowerCase()
+  => Retourne la valeur de la chaîne courante, convertie en minuscules.
+
+  string.repeat()
+  => Répète une chaine de caractères autant de fois que l'indice, concaténées les unes aux autres.
+
+  string.endsWith()
+  => Renvoie un booléen indiquant si la chaine de caractères se termine par la chaine de caractères fournie en argument.
+
+  string.replace()
+  => Remplace une chaine de caractères par une nouvelle.
+
+  ----------------------- OBJECT -----------------------
+
+  object.keys()
+  => Renvoie un tableau contenant les noms des propriétés (keys) propres à un objet et qui sont énumérables.
+
+  object.values()
+  => Renvoie un tableau contenant les valeurs des propriétés (keys) propres énumérables.
+
+  ----------------------- FUNCTION -----------------------
+
+  function.apply()
+  => Appelle une fonction en lui passant une valeur this et des arguments sous forme d'un tableau.
+
+  const numbers = [5, 6, 2, 3, 7];
+  const max = Math.max.apply(null, numbers); // 7
